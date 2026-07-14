@@ -20,7 +20,7 @@ if(choice == 'I' || choice =='i'){
 
 
 
-    std::cout<<"Zadejte prvni soubor overeni: ";
+    std::cout<<"Zadejte soubor k overeni: ";
     std::cin>>input_file;
 
     std::cout<<"Zadejte puvodni hash souboru: ";
