@@ -6,7 +6,8 @@ Každý soubor má main, hlavičkové soubory a popř. i soubor k otestování p
 
 1.  Analýza a prolomení klasických šifer
   -  Implementace Caesarovy a Vigenèrovy šifry + prolomení na zálkadě frekvenční analýzy
-     Možnost šifrování a dešifrování Caesarovou i Vigenèrovou šifrou, možnost prolomení obou šifer.    
+  -  Možnost šifrování a dešifrování Caesarovou i Vigenèrovou šifrou, možnost prolomení obou šifer.
+  -  Program se postupně ptá, jakou si zvolíte šifrovaní metodu a co chcete se souborem dělat.    
    
 
 2. Binární transformace a XOR šifrování
