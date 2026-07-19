@@ -15,9 +15,7 @@ std::cin>>choice;
 
 if(choice == 'I' || choice =='i'){
 
-    std::string second_file;
     uint32_t hash_second;
-
 
 
     std::cout<<"Zadejte soubor k overeni: ";
