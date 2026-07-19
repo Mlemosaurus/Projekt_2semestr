@@ -29,12 +29,11 @@ while(input.get(change_byte)){
 
     unsigned char key_byte = distribute(key); //vygenerování dalšího bytu ze sekvence
 
-    char output_byte = change_byte ^ key_byte;
+    char output_byte = change_byte ^ key_byte; // XOR: (A^B)^B = A    == dvakrat aplikuji stejný bity -> puvodni bity
         
         // Zapíšeme do výstupního souboru
         output.put(output_byte);
 }
-
 
 
 
